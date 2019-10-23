@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="KulSDK" customModuleProvider="target">
+            <connections>
+                <outlet property="tfEmail" destination="QVv-Cg-L9v" id="Oak-1g-ja9"/>
+                <outlet property="tfPassword" destination="r7J-WA-Cm1" id="hem-8L-je0"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Hpe-DR-h92"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="EMAIL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QVv-Cg-L9v">
+                    <rect key="frame" x="20" y="50" width="335" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r7J-WA-Cm1">
+                    <rect key="frame" x="20" y="120" width="335" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCA-k4-jkv">
+                    <rect key="frame" x="165" y="190" width="45" height="30"/>
+                    <state key="normal" title="LOGIN"/>
+                    <connections>
+                        <action selector="btnLogin_Pressed:" destination="-1" eventType="touchUpInside" id="5E9-iV-lkE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="r7J-WA-Cm1" secondAttribute="trailing" constant="20" id="4Qv-tq-BGu"/>
+                <constraint firstItem="QVv-Cg-L9v" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="6xS-R3-ikZ"/>
+                <constraint firstItem="QVv-Cg-L9v" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="H7C-Rg-7CF"/>
+                <constraint firstItem="DCA-k4-jkv" firstAttribute="top" secondItem="r7J-WA-Cm1" secondAttribute="bottom" constant="40" id="Jc9-xc-XLy"/>
+                <constraint firstItem="r7J-WA-Cm1" firstAttribute="top" secondItem="QVv-Cg-L9v" secondAttribute="bottom" constant="40" id="PeI-PT-CBe"/>
+                <constraint firstItem="r7J-WA-Cm1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Svs-Nr-ziO"/>
+                <constraint firstItem="DCA-k4-jkv" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="o9o-VN-aFh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QVv-Cg-L9v" secondAttribute="trailing" constant="20" id="zBr-dt-V3J"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
