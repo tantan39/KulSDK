@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "TanTan"
 
   s.author             = { "Tran Thai Tan" => "tantan992@gmail.com" }
-  s.source       = { :git => "git@github.com:tantan39/KulSDK.git", :tag => "0.0.1", :branch => 'master' }
+  s.source       = { :git => "git@github.com:tantan39/KulSDK.git", :branch => 'master' }
   # s.platform     = :ios
   # s.platform     = :ios, "12.0"
 
