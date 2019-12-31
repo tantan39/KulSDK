@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
 
   s.description  = "Demo description for KulSDK. Payment gateway"
 
-  s.homepage     = "https://github.com/tantran-phdv/KulSDK"
+  s.homepage     = "https://github.com/tantan39/KulSDK"
 
   s.license      = "TanTan"
 
   s.author             = { "Tran Thai Tan" => "tantan992@gmail.com" }
-  s.source       = { :git => "git@github.com:tantran-phdv/KulSDK.git", :tag => "0.0.1", :branch => 'master' }
+  s.source       = { :git => "git@github.com:tantan39/KulSDK.git", :tag => "0.0.1", :branch => 'master' }
   # s.platform     = :ios
   # s.platform     = :ios, "12.0"
 
