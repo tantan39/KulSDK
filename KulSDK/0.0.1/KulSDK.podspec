@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source_files  = 'KulSDK/KulSDK/**/*.{h,m,Swift}'
+  s.source_files  = 'Kul/KulSDK/**/*.{h,m,Swift}'
   # s.public_header_files = "/**/*.h"
 	s.swift_version = "4.2"
 
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = 'KulSDK/KulSDK/**/*.{png,storyboard,xib,plist,gif}'
+  s.resources = 'Kul/KulSDK/**/*.{png,storyboard,xib,plist,gif}'
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
